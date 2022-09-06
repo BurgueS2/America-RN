@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0), rgb(77, 0, 0));
+    background-attachment: fixed;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-family: ;
+    color: rgb(255, 0, 0);
+    text-shadow: ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+ div {
+    background-color: rgb(255, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+#topbar {
+    background-color: white;
+}
