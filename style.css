@@ -6,7 +6,7 @@ body {
 }
 
 main {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.719);
     margin: auto;
     width: 600px;
     padding: 10px;
@@ -15,22 +15,40 @@ main {
 }
 
 h1 {
-    font-family: ;
+    font-family: 'Courier New', Courier, monospace;
     color: rgb(255, 0, 0);
-    text-shadow: ;
+    text-shadow: 1px 1px 3px rgba(121, 0, 0, 0.562);
     font-style: normal;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 3em;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 3px rgba(121, 0, 0, 0.562);
+    font-style: normal;
+    font-weight: normal;
 }
 
  div {
     background-color: rgb(255, 0, 0);
-    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    width: 550px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(121, 0, 0, 0.562);
     font-style: normal;
     font-weight: normal;
     font-size: 1.2em;
 }
 
-#topbar {
-    background-color: white;
+a {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: white;
+}
+
+#icon {
+    position: relative;
+    transform: translateY(15%);
 }
