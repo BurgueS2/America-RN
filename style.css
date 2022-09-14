@@ -1,21 +1,45 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
+
+@keyframes degrade-animado {
+    0% {
+        background-position-x: 0%;
+    }
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+* {
+    /*margin: 0%;
+    padding: 0%;*/
+    box-sizing: border-box;
+}
+
 body {
-    background-image: linear-gradient(to bottom, rgb(255, 0, 0), rgb(77, 0, 0));
+    width: auto;
+    /*padding: 100% 0;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, rgb(255, 0, 0), rgb(156, 0, 0), rgb(73, 1, 1));
+    background-size: 500% 100%;
     background-attachment: fixed;
+    animation: degrade-animado 5s infinite alternate;
 }
 
 main {
     background-color: rgba(255, 255, 255, 0.719);
     margin: auto;
-    width: 600px;
+    width: 700px;
     padding: 10px;
     border-radius: 15px;
     text-align: center;
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Aref Ruqaa Ink', serif;
     color: rgb(255, 0, 0);
     text-shadow: 1px 1px 3px rgba(121, 0, 0, 0.562);
     font-style: normal;
@@ -24,22 +48,12 @@ h1 {
 }
 
 p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Aref Ruqaa Ink', serif;
     color: rgb(255, 0, 0);
     text-shadow: 1px 1px 3px rgba(121, 0, 0, 0.562);
     font-style: normal;
     font-weight: normal;
-}
-
- div {
-    background-color: rgb(255, 0, 0);
-    margin: auto;
-    width: 550px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 10px rgba(121, 0, 0, 0.562);
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 a {
@@ -48,7 +62,17 @@ a {
     color: white;
 }
 
+div {
+    background-color: rgb(255, 0, 0);
+    margin: auto;
+    width: 650px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(121, 0, 0, 0.562);
+    font-style: normal;
+    font-weight: normal;
+}
+
 #icon {
     position: relative;
-    transform: translateY(15%);
+    transform: translateY(5%);
 }
